@@ -10,7 +10,7 @@ export const referralsData = [
     id: 2,
     quote:"...",
     name: "Wasantha Abeygoonarathne",
-    role: "Founde/CEO - Highrays Engineering",
+    role: "Founder/CEO - Highrays Engineering, Polgasowita",
   },
   {
     id: 3,
@@ -24,14 +24,14 @@ export const referralsData = [
     quote:
       "...",
     name: "Sugath Thrimahawithana",
-    role: "Managing Director - Milky Fresh Dairy",
+    role: "Managing Director - Milky Fresh Dairy, Wellawatte",
   },
   {
     id: 5,
     quote:
       "...",
     name: "Dhanapala Gamage",
-    role: "CEO/Founder - T and D Manufacturing",
+    role: "CEO/Founder - T and D Manufacturing, Homagama",
   },
   {
     id: 6,
