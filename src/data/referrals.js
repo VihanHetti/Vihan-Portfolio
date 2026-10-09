@@ -4,7 +4,7 @@ export const referralsData = [
     quote:
       "...",
     name: "Nalin Karunasinghe",
-    role: "CEO - eNET Solutions",
+    role: "CEO - eNET Solutions, Kelaniya",
   },
   {
     id: 2,
