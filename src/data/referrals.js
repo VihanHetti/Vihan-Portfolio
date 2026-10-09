@@ -15,7 +15,7 @@ export const referralsData = [
   {
     id: 3,
     quote:
-      "..."
+      "...",
     name: "Prof. Sanjeewa Witharana",
     role: "University of Moratuwa",
   },
