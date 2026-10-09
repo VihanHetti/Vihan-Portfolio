@@ -2,16 +2,17 @@ import { useState } from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTheme } from '../context/ThemeContext';
 import { Mail, Linkedin, Github, Send, MapPin, Phone } from 'lucide-react';
+import { bio } from '../data/bio';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'vihan@example.com', href: 'mailto:vihan@example.com' },
-  { icon: Phone, label: 'Phone', value: '+94 71 234 5678', href: 'tel:+94712345678' },
-  { icon: MapPin, label: 'Location', value: 'Colombo, Sri Lanka', href: null },
+  { icon: Mail, label: 'Email', value: bio.email, href: `mailto:${bio.email}` },
+  { icon: Phone, label: 'Phone', value: bio.phone, href: `tel:${bio.phone.replace(/[^\d+]/g, '')}` },
+  { icon: MapPin, label: 'Location', value: bio.location, href: null },
 ];
 
 const socialLinks = [
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com', color: 'hover:text-blue-400' },
-  { icon: Github, label: 'GitHub', href: 'https://github.com', color: 'hover:text-purple-400' },
+  { icon: Linkedin, label: 'LinkedIn', href: bio.socialLinks.linkedin, color: 'hover:text-blue-400' },
+  { icon: Github, label: 'GitHub', href: bio.socialLinks.github, color: 'hover:text-purple-400' },
 ];
 
 export default function Contact() {
