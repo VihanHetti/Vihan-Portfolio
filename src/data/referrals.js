@@ -10,7 +10,7 @@ export const referralsData = [
     id: 2,
     quote:"...",
     name: "Wasantha Abeygoonarathne",
-    role: "Founder/CEO - Highrays Engineering, Polgasowita",
+    role: "Founder/CEO - Highray Engineering, Polgasowita",
   },
   {
     id: 3,
