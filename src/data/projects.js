@@ -1,4 +1,14 @@
-import project_1 from '../pictures/projects/project_1.jpg';
+import press from '../pictures/projects/Compact pneumatic assembly press-1.png';
+import enclosure from '../pictures/projects/Minimalist exploded electronics enclosure-3.png';
+import cnc from '../pictures/projects/Open CNC Control Cabinet Concept-2.png';
+import manifold from '../pictures/projects/CFD analysis of internal manifold flow-1.png';
+import filler from '../pictures/projects/Compact liquid dispensing station-5.png';
+import water from '../pictures/projects/Connected water monitoring concept-6.png';
+import paneer from '../pictures/projects/Humidity-controlled food storage cabinet-7.png';
+import cooler from '../pictures/projects/Exploded Shell-and-Tube Heat Exchanger-8.png';
+import packer from '../pictures/projects/Minimal automated packing station-9.png';
+import vmc from '../pictures/projects/Compact blue-accented machining center-10.png';
+import lathe from '../pictures/projects/CNC lathe servo fault diagnosis-2.png';
 
 export const projectCategories = [
   "ALL",
@@ -21,7 +31,7 @@ export const projectsData = [
       "Developed a pneumatic pressing system and custom end-effector to replace a manual rubber-mallet assembly process. The system was designed around controllable pressing force, factory air availability, reduced operator fatigue, and reliable alignment of injection-moulded plastic components.",
     tags: ["PNEUMATICS", "AUTOMATION", "MECHANICAL DESIGN"],
     category: "AUTOMATION",
-    image: project_1,
+    image: press,
     techStack: [
       { icon: "precision_manufacturing", name: "Pneumatics" },
       { icon: "settings_input_component", name: "Custom End-Effector" },
@@ -52,7 +62,7 @@ export const projectsData = [
       "Designed an enclosure to match the dimensional envelope of an MCCB assembly so the prototype could integrate into an electrical panel and DIN-rail environment. The design considered accessibility, mechanical loading, electronic assembly, troubleshooting access, and additive-manufacturing constraints.",
     tags: ["CAD", "ADDITIVE MANUFACTURING", "PRODUCT DESIGN"],
     category: "DESIGN & ANALYSIS",
-    image: project_1,
+    image: enclosure,
     techStack: [
       { icon: "view_in_ar", name: "3D CAD" },
       { icon: "print", name: "3D Printing" },
@@ -83,7 +93,7 @@ export const projectsData = [
       "Developed a CNC control cabinet around a Centroid Ajax MPU11, GPIO4D I/O board and Advanced Motion Controls servo drives. The project involved electrical integration, controller configuration, software installation, I/O troubleshooting, servo commissioning and systematic fault diagnosis.",
     tags: ["CNC", "CONTROLS", "RETROFIT", "TROUBLESHOOTING"],
     category: "AUTOMATION",
-    image: project_1,
+    image: cnc,
     techStack: [
       { icon: "memory", name: "Centroid MPU11" },
       { icon: "developer_board", name: "GPIO4D" },
@@ -114,7 +124,7 @@ export const projectsData = [
       "Designed and analysed a manifold intended to distribute ultrasonic mist throughout an existing cabinet with no purpose-built airflow paths. The objective was to achieve high humidity throughout each tray while eliminating blind spots and reducing unnecessary mist-generator operation.",
     tags: ["FLUID FLOW", "DESIGN", "HUMIDITY CONTROL"],
     category: "DESIGN & ANALYSIS",
-    image: project_1,
+    image: manifold,
     techStack: [
       { icon: "air", name: "Flow Distribution" },
       { icon: "water_drop", name: "Ultrasonic Humidification" },
@@ -145,7 +155,7 @@ export const projectsData = [
       "Developed a fluid filling system for requirements substantially different from conventional high-speed filling equipment. The machine prioritized minimum footprint, manual relocation, sub-three-foot height, simple field repair and rapid daily disassembly for cleaning. A physical HMI was used instead of a touchscreen because of the wet, humid operating environment.",
     tags: ["AUTOMATION", "FABRICATION", "MACHINE DESIGN"],
     category: "AUTOMATION",
-    image: project_1,
+    image: filler,
     techStack: [
       { icon: "precision_manufacturing", name: "Machine Design" },
       { icon: "developer_board", name: "Control Logic" },
@@ -176,7 +186,7 @@ export const projectsData = [
       "Built a low-cost SCADA-like prototype using three distributed ESP32-C3 data-acquisition nodes and a central ESP32 controller. The system monitored a groundwater well, municipal supply and storage tank while controlling pumps and valves. MQTT telemetry was captured through Telegraf, stored in InfluxDB and visualized using Grafana.",
     tags: ["IOT", "ESP32", "MQTT", "SCADA"],
     category: "CONTROLS & IOT",
-    image: project_1,
+    image: water,
     techStack: [
       { icon: "developer_board", name: "ESP32" },
       { icon: "hub", name: "MQTT" },
@@ -207,7 +217,7 @@ export const projectsData = [
       "Investigated crust formation on refrigerated paneer through iterative experiments. After wrapping and immersion approaches proved unsuitable, moisture loss was identified as the likely mechanism. A humidity-saturated proof-of-concept eliminated crust formation, leading to development of a stainless-steel humidity-controlled storage cabinet.",
     tags: ["R&D", "PROTOTYPING", "FOOD PROCESSING"],
     category: "R&D",
-    image: project_1,
+    image: paneer,
     techStack: [
       { icon: "science", name: "Experimental Testing" },
       { icon: "water_drop", name: "Humidity Control" },
@@ -238,7 +248,7 @@ export const projectsData = [
       "Participated in rebuilding an OFWF oil cooler by removing the original copper tubing, opening the steel sheath, installing replacement tubes, expanding and sealing the tube ends, reassembling the cooler and performing hydrostatic leak testing.",
     tags: ["MAINTENANCE", "FABRICATION", "REPAIR"],
     category: "MANUFACTURING",
-    image: project_1,
+    image: cooler,
     techStack: [
       { icon: "plumbing", name: "Copper Tubing" },
       { icon: "construction", name: "Tube Expansion" },
@@ -269,7 +279,7 @@ export const projectsData = [
       "Handled engineering drawings and DXFs, fabrication coordination, dimensional inspection, tolerance verification, assembly planning, frame fabrication oversight and hardware planning for a machine designed to pack wrapped soap bars into corrugated boxes.",
     tags: ["MACHINE DESIGN", "FABRICATION", "MANUFACTURING"],
     category: "MANUFACTURING",
-    image: project_1,
+    image: packer,
     techStack: [
       { icon: "design_services", name: "Engineering Drawings / DXF" },
       { icon: "precision_manufacturing", name: "Sheet Metal Fabrication" },
@@ -300,7 +310,7 @@ export const projectsData = [
       "Troubleshot a new SZGH-controlled vertical machining centre with multiple commissioning faults. Work included tracing a dead 1080 MiC interface to disconnected supply wiring, establishing Z-axis soft limits, investigating lost positional reference and recalibrating the automatic tool magazine.",
     tags: ["CNC", "COMMISSIONING", "TROUBLESHOOTING"],
     category: "AUTOMATION",
-    image: project_1,
+    image: vmc,
     techStack: [
       { icon: "precision_manufacturing", name: "SZGH VMC" },
       { icon: "memory", name: "1080 MiC" },
@@ -331,7 +341,7 @@ export const projectsData = [
       "Investigated an intermittent servo fault that locked the X and Z axes after traversal. Mechanical friction, lubrication, timing transmission, servo hardware and controller parameters were systematically investigated before testing revealed a relationship between commanded traversal speed and error accumulation.",
     tags: ["CNC", "SERVO", "DIAGNOSTICS"],
     category: "AUTOMATION",
-    image: project_1,
+    image: lathe,
     techStack: [
       { icon: "precision_manufacturing", name: "SZGH 990TDB" },
       { icon: "settings", name: "Servo Systems" },

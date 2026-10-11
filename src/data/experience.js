@@ -2,80 +2,65 @@ export const experienceData = [
   {
     id: 1,
     type: "work",
-    role: "Senior Mechanical Design Engineer",
-    organization: "Precision Dynamics Ltd.",
-    period: "2020 — Present",
-    location: "Colombo, Sri Lanka",
+    role: "Engineering Intern",
+    organization: "eNET",
+    period: "2025 Aug - Dec",
+    location: "Sri Lanka",
     description:
-      "Lead mechanical design for automated manufacturing systems. Spearhead DFM initiatives that reduced production costs by 18% across 3 product lines. Manage cross-functional teams spanning mechanical, electrical, and software disciplines.",
-    highlights: ["DFM / DFA", "Team Leadership", "Automation Systems"],
+      "Worked on the development of an automated soap packing machine, handling engineering drawings, fabrication coordination, tolerance verification and assembly planning.",
+    highlights: [
+      "Machine Development",
+      "DFMA",
+      "Fabrication & Assembly",
+    ],
   },
   {
     id: 2,
     type: "work",
-    role: "Mechanical Engineer",
-    organization: "AeroTech Engineering",
-    period: "2017 — 2020",
-    location: "Colombo, Sri Lanka",
+    role: "Engineering Experience",
+    organization: "Highray Engineering",
+    period: "2025 Dec - 2026 Feb",
+    location: "Sri Lanka",
     description:
-      "Designed and validated structural components for aerospace-grade applications. Performed FEA simulations and managed supplier qualification for critical fasteners and composite panels.",
-    highlights: ["FEA / Structural Analysis", "Aerospace Components", "Supplier QA"],
+      "Worked on OFWF oil-cooler refurbishment, CNC retrofitting, integration and troubleshooting, manufacturing and heavy fabrication. Gained practical experience in industrial repair, machine commissioning and production processes.",
+    highlights: [
+      "CNC Retrofitting, Integration & Manufacturing",
+      "Industrial Maintenance",
+      "Heavy Fabrication",
+    ],
   },
   {
     id: 3,
-    type: "work",
-    role: "Graduate Mechanical Engineer",
-    organization: "Industrial Solutions Group",
-    period: "2015 — 2017",
-    location: "Kandy, Sri Lanka",
-    description:
-      "Rotational program covering design, manufacturing, and quality engineering. Introduced SPC monitoring systems reducing rejection rates by 12% on precision machined components.",
-    highlights: ["Process Improvement", "Quality Control", "SPC Systems"],
-  },
-  {
-    id: 4,
     type: "education",
-    role: "B.Sc. (Hons) Mechanical Engineering",
-    organization: "University of Peradeniya",
-    period: "2011 — 2015",
-    location: "Peradeniya, Sri Lanka",
+    role: "Second-Year Mechanical Engineering Undergraduate",
+    organization: "University of Moratuwa",
+    period: "In Progress",
+    location: "Moratuwa, Sri Lanka",
     description:
-      "First Class Honours. Thesis: 'Parametric Optimization of Heat Sink Geometry for Electronic Cooling using CFD'. Active member of the Engineering Society and Formula Student team.",
-    highlights: ["First Class Honours", "CFD Research", "Formula Student"],
-  },
-  {
-    id: 5,
-    type: "education",
-    role: "MSc of Manufacturing Engineering",
-    organization: "International Gest",
-    period: "2015 — 2017",
-    location: "Singapore",
-    description:
-      "First Class Honours. Thesis: 'Parametric Optimization of Heat Sink Geometry for Electronic Cooling using CFD'. Active member of the Engineering Society and Formula Student team.",
-    highlights: ["First Class Honours", "CFD Research", "Formula Student"],
+      "Current GPA of 3.81, with a strong interest in Design for Manufacture and Assembly and additive manufacturing. Enthusiastic about translating engineering principles into practical, manufacturable systems.",
+    highlights: [
+      "GPA: 3.81",
+      "DFMA",
+      "Additive Manufacturing",
+    ],
   },
 ];
 
 export const achievementsData = [
   {
     id: 1,
-    title: "Best Innovation Award",
-    issuer: "Sri Lanka Institute of Engineers",
-    year: "2023",
-    description: "Recognized for the pneumatic robotic arm achieving exceptional production efficiency.",
+    title: "Google Data Analytics Certificate",
+    issuer: "Google",
+    year: "2024",
+    description:
+      "Completed Google Data Analytics certification, developing skills in data preparation, analysis and visualization to support engineering investigations and process improvement.",
   },
   {
-    id: 2,
-    title: "Chartered Engineer (CEng)",
-    issuer: "Institution of Mechanical Engineers (IMechE)",
-    year: "2021",
-    description: "Achieved Chartered Engineer status demonstrating commitment to professional excellence.",
-  },
-  {
-    id: 3,
-    title: "Engineering Excellence Prize",
-    issuer: "University of Peradeniya",
-    year: "2015",
-    description: "Awarded for outstanding undergraduate research in thermal engineering.",
-  },
+  id: 2,
+  title: "Junior Inventor of the Year — Gold Medal",
+  issuer: "IESL",
+  year: "2019", // Add the correct year.
+  description:
+    "Awarded a gold medal for developing a machine to remove concrete sewer canal cover slabs.",
+},
 ];

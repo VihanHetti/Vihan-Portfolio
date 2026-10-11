@@ -14,8 +14,8 @@ export const expertiseData = [
   {
     id: 3,
     icon: "eco",
-    title: "Sustainability",
-    description: "Energy-efficient thermal management and circular material use.",
+    title: "Process Development",
+    description: "Resource-efficient workflow development and waste reduction.",
   },
   {
     id: 4,
