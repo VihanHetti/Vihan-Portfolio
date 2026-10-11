@@ -67,7 +67,7 @@ export default function About() {
             {bio.stats.map((s) => (
               <div
                 key={s.label}
-                className={`glass-card-static p-5 group hover:border-primary/30 transition-all duration-300`}
+                className={`glass-card-static ${s.value.length > 10 ? 'col-span-2' : ''} p-5 group hover:border-primary/30 transition-all duration-300`}
               >
                 <div className={`text-3xl font-bold tracking-tight mb-1 group-hover:text-primary transition-colors duration-300 ${isDark ? 'text-on-background' : 'text-gray-900'}`}>
                   {s.value}
